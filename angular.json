@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vectra-todo-app"
+    }
+  },
+  "defaultProject": "vectra-todo-app",
+  "cli": {
+    "analytics": "ce80ed48-b068-4927-97bb-0a537aa54c9e"
+  }
 }
