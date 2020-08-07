@@ -7,6 +7,7 @@ import {HomeComponent} from './home/home.component';
 import {HttpClientModule} from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {SweetAlert2Module} from '@sweetalert2/ngx-sweetalert2';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {SweetAlert2Module} from '@sweetalert2/ngx-sweetalert2';
     AppRoutingModule,
     HttpClientModule,
     SweetAlert2Module,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
