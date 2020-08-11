@@ -91,7 +91,7 @@ export class HomeComponent implements OnInit {
     } else {
       await this.todoService.update(data.id, data);
     }
-  
+
 
   }
 
